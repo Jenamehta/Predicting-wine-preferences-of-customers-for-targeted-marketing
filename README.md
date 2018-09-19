@@ -20,5 +20,11 @@ To improve an import-export business focused on bringing bulk wine to the states
 - Solver
 
 ## Conclusion/Findings
-
+When we look at the 3MC-TopDealsByCluster Sheet in the Excel Workbook we can interpret this data as follows 
+- Cluster 1 has a tie between people who prefer Champagne and Cabernet Sauvignon, when a cluster doesn't provide clear results it means we need to add or subtract clusters by finding silhoutte value for k, in our case it could be adding more. We assumed k=3 for simplicity of solving.
+- Cluster 2 has people who buy minimum quantity as 6kg
+- Cluster 3 has people who prefer wine which has 'France' as its country of origin
+ 
+ ## Future Scope
+ One can make a wine recommendation system based on this and bump up sales by targeted email marketing
 
